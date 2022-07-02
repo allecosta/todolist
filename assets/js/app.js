@@ -107,7 +107,7 @@ function updateTask(taskId, el) {
 
         if (task.isCompleted) {
             span.removeAttribute("contenteditable");
-            el.setAtrribute("checked", "");
+            el.setAttribute("checked", "");
         } else {
             el.removeAttribute("checked");
             span.setAtrribute("contenteditable", "");

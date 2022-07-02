@@ -17,7 +17,6 @@ a {
 input,
 button {
     font-family: 'Arima', cursive;
-    ;
     font-size: 100%;
     background: none;
 }
@@ -42,6 +41,25 @@ body {
     background: #2C2243;
     /*background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)100%), url(/assets/img/home.jpg);
     background-size: cover;*/
+}
+
+.img-container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+
+}
+
+#img-book {
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
 }
 
 .container {
@@ -163,6 +181,13 @@ h1 {
     .todo-stats {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+@media screen and (min-width: 360px) {
+    .img-container {
+        margin-top: 5rem;
     }
 }
 

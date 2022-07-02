@@ -110,7 +110,7 @@ function updateTask(taskId, el) {
             el.setAttribute("checked", "");
         } else {
             el.removeAttribute("checked");
-            span.setAtrribute("contenteditable", "");
+            span.setAttribute("contenteditable", "");
         }
     }
 

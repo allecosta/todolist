@@ -23,6 +23,7 @@ button {
     font-family: 'Arima', cursive;
     font-size: 100%;
     background: none;
+    color: white;
 }
 
 [type="checkbox"] {
